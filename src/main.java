@@ -30,7 +30,7 @@ public class main {
 
                 if (output.startsWith("    id")) {
                     int index = output.indexOf(':');
-                    people[count].id = output.substring(index + 2);
+                    people[count].id = Integer.parseInt(output.substring(index + 2));
                 }
                 if (output.startsWith("    name")) {
                     int index = output.indexOf(':');
@@ -100,7 +100,7 @@ public class main {
 
                 if (output2.startsWith("    id")) {
                     int index = output2.indexOf(':');
-                    companies[count2].id = output2.substring(index + 2);
+                    companies[count2].id = Integer.parseInt(output2.substring(index + 2));
                 }
                 if (output2.startsWith("    name")) {
                     int index = output2.indexOf(':');
@@ -123,7 +123,7 @@ public class main {
                 }
                 if (output2.startsWith("    employee")) {
                     int index = output2.indexOf(':');
-                    companies[count2].employeeCount = output2.substring(index + 2);
+                    companies[count2].employeeCount = Integer.parseInt(output2.substring(index + 2));
 
                 }
 

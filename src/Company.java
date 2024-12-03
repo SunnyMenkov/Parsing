@@ -1,15 +1,15 @@
 public class Company {
-    String id="";
-    String name="";
-    String address="";
-    String zip="";
-    String country="";
-    String employeeCount="";
-    String industry="";
-    String marketCap="";
-    String domain="";
-    String logo="";
-    String ceoName="";
+    int id;
+    String name;
+    String address;
+    String zip;
+    String country;
+    int employeeCount;
+    String industry;
+    String marketCap;
+    String domain;
+    String logo;
+    String ceoName;
 
     void print(){
         System.out.println("id: "+id);
